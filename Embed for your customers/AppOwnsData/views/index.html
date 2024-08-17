@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../public/css/index.css" />
+    <title>Embedded Power BI report</title>
+
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      #report-container {
+        width: 100%;
+        height: 100vh;
+      }
+
+      .embed-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .error-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main id="report-container" class="embed-container">
+      <!-- Used to display report embed error messages -->
+      <section class="error-container"></section>
+    </main>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/powerbi.min.js"></script>
+    <script src="../public/js/index.js"></script>
+  </body>
+</html>

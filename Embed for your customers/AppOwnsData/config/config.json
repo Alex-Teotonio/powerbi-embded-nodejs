@@ -1,0 +1,13 @@
+{
+  "authenticationMode": "MasterUser",
+  "authorityUri": "https://login.microsoftonline.com/common/v2.0",
+  "scope": "https://analysis.windows.net/powerbi/api",
+  "apiUrl": "https://api.powerbi.com/",
+  "clientId": "e92ab36d-e778-4d91-b79c-cbb4c1a58235",
+  "workspaceId": "837289f3-ef2b-415a-a49d-d15fc0b59225",
+  "reportId": "eeaea514-02ba-4d4a-b0b0-d8e7de2751bd",
+  "pbiUsername": "portalsibe@bioextratus.com.br",
+  "pbiPassword": "Extratus@ps2022",
+  "clientSecret": "",
+  "tenantId": "3e942012-b66c-48ba-968b-6dab0dbc57af"
+}
